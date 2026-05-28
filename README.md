@@ -1,4 +1,4 @@
-# Pipelined Complex Multiply Accumulator
+# Pipelined Complex Multiply Accumulator Algorithm — Modelling & FPGA Implementation
 
 This project implements a hardware accelerator that performs complex multiplication on two coefficient vectors, stores every 5th result, and accumulates the stored values.
 ### What This Design Does
@@ -34,7 +34,7 @@ For k = 1 to 100:
 5. After all writes: sum all 20 RAM values
 
 ### Pre-computation
-`n1` and `n2` are pre-computed in **MATLAB / Octave** (`gen_rom_data.m`) and stored as 6-bit binary text files loaded into ROM at simulation time via`$readmemb`.
+`n1` and `n2` are pre-computed in **MATLAB** (`gen_rom_data.m`) and stored as 6-bit binary text files loaded into ROM at simulation time via`$readmemb`.
 
 ---
 

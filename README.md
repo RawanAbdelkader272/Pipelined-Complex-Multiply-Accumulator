@@ -97,7 +97,7 @@ Pipelined-Complex-Multiply-Accumulator/
 - **All Tests**: ✅ PASS
 
 ## Waveform Signals
-
+![Simulation Results](../sim_results.png)
 Key signals to monitor:
 - `/acc_top_tb/u_dut/rom_ptr` - ROM address counter (0-99)
 - `/acc_top_tb/u_dut/wr_cnt` - Write counter (0-4, rolls every 5th)

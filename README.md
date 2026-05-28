@@ -1,4 +1,4 @@
-# Complex Accumulator Hardware Design
+# Pipelined Complex Multiply Accumulator
 
 This project implements a hardware accelerator that performs complex multiplication on two coefficient vectors, stores every 5th result, and accumulates the stored values.
 ### What This Design Does
